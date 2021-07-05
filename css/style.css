@@ -1,0 +1,153 @@
+h1 {
+  font-size: 56px;
+  letter-spacing: 3px; }
+
+h2 {
+  font-size: 35px;
+  letter-spacing: 3px; }
+
+h3 {
+  font-size: 21px;
+  letter-spacing: 3px; }
+
+* {
+  transition: all 0.3s ease-in-out; }
+
+h1 {
+  color: #fb6087;
+  z-index: 2; }
+
+h2 {
+  letter-spacing: 15px;
+  color: white; }
+
+h3 {
+  color: #8486a9; }
+
+body {
+  overflow-x: hidden;
+  font-size: 14px;
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 700;
+  padding-top: 100px;
+  text-align: center;
+  background: url("../images/bg-stars.svg");
+  background-color: #1e1f29; }
+  body .sound {
+    opacity: 0;
+    position: absolute; }
+  body .container {
+    width: 100%;
+    overflow-x: hidden; }
+  body section:first-of-type {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center; }
+    body section:first-of-type article {
+      margin-left: 20px; }
+      body section:first-of-type article div {
+        background-color: #343650;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        border-top: 10px solid green;
+        box-shadow: 0px 10px 0px 0px #191a24;
+        width: 130px;
+        padding: 15px; }
+        body section:first-of-type article div .span1 {
+          position: absolute;
+          margin-left: -70px;
+          margin-top: 44px;
+          background-color: #1e1f29;
+          width: 15px;
+          height: 13px;
+          border-radius: 50px;
+          float: left;
+          transform: rotate(0deg); }
+        body section:first-of-type article div .span2 {
+          position: absolute;
+          margin-left: 55px;
+          margin-top: -47px;
+          background-color: #1e1f29;
+          width: 15px;
+          height: 13px;
+          border-radius: 50px;
+          float: left;
+          transform: rotate(0deg); }
+        body section:first-of-type article div hr {
+          border: 0.5px solid #191a24;
+          text-align: left;
+          width: 127px;
+          height: 0px;
+          position: absolute;
+          margin-left: -15px;
+          margin-top: 50px;
+          opacity: 0.3;
+          vertical-align: middle; }
+      body section:first-of-type article h3 {
+        margin-top: 30px; }
+  body section:last-of-type {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 0px;
+    margin-top: 200px;
+    display: inline-block;
+    background: url("../images/pattern-hills.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+    body section:last-of-type img {
+      position: relative;
+      top: 100px;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      margin-left: 30px; }
+    body section:last-of-type img:hover {
+      filter: invert(53%) sepia(39%) saturate(3008%) hue-rotate(312deg) brightness(103%) contrast(97%);
+      transform: scale(1.2); }
+
+@media (max-width: 950px) {
+  body {
+    padding-top: 50px;
+    overflow: hidden; }
+    body .container {
+      width: 100%;
+      overflow-x: hidden; }
+    body h1 {
+      font-size: 28px;
+      letter-spacing: 3px; }
+    body h2 {
+      font-size: 21px;
+      letter-spacing: 3px; }
+    body h3 {
+      font-size: 14px;
+      letter-spacing: 3px; }
+    body section:first-of-type {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-around; }
+      body section:first-of-type article {
+        margin-left: 0px; }
+        body section:first-of-type article div {
+          padding: 10px;
+          width: 90px; }
+          body section:first-of-type article div .span1 {
+            margin-left: -53px;
+            margin-top: 30px; }
+          body section:first-of-type article div .span2 {
+            margin-left: 38px;
+            margin-top: -30px; }
+          body section:first-of-type article div hr {
+            margin-top: 35px;
+            margin-left: -10px;
+            width: 87px; }
+    body section:last-of-type {
+      background: url("../images/pattern-hills.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 200px; }
+      body section:last-of-type img {
+        height: 25px;
+        width: 25px; } }
+
+/*# sourceMappingURL=style.css.map */
